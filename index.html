@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Biking</title>
+</head>
+<body> 
+
+<button class="theme-button">DARK THEME</button>
+<div class="container">
+<h1>Mountain Biking</h1>
+<a href="https://en.wikipedia.org/wiki/Mountain_biking">
+    <img src="images/bike3.jpeg" width=600px class="bike-daytime-picture">
+    </a>
+<p>
+Mountain biking is a sport of riding bicycles off-road, often over rough terrain, usually using specially designed mountain bikes. Mountain bikes share similarities with other bikes but incorporate features 
+designed to enhance durability and performance in rough terrain, such as air or coil-sprung shocks used as suspension, larger and wider wheels and tires, stronger frame materials, and mechanically or 
+hydraulically actuated disc brakes. Mountain biking can generally be broken down into five distinct categories: cross country, trail riding, all mountain (also referred to as "Enduro"), downhill, and freeride.
+</p>
+<div class="grid">
+<img src="images/bike1.jpeg" width=300px class="bike-into-picture">
+<div class="row">
+<img src="images/bike4.jpeg" width=330px height=150px class="bike-golden-hour-picture">
+<img src="images/bike2.jpeg" width=330px class="bike-silouette-picture">
+<img src="images/bike5.jpeg" width=330px class="bike-double-picture">
+</div>
+</div>
+<button class="learn-button">Learn Mountain Biking</button>
+</div>
+<footer>Coded by Megan Linney</footer>
+
+<script>
+    function changeTheme () {
+    let body = document.querySelector("body");
+    
+    if (body.classList.contains("dark")) {
+        body.classList.remove("dark");
+    } else {
+        body.classList.add("dark");
+    }
+}
+
+
+let themeButton = document.querySelector(".theme-button");
+themeButton.addEventListener("click", changeTheme);
+</script>
+</body>
+</html>

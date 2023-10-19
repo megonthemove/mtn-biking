@@ -1,0 +1,106 @@
+body {
+    background: cadetblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    text-align: center;
+    margin: 10px auto;
+    color: white;
+    font-size: 18px;
+}
+
+img {
+max-width: 100%;
+border-radius: 10px;
+transition: all 150ms ease-in-out; 
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid cadetblue;
+    background: white;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    transition: all 150ms ease-in-out;
+}
+
+button:hover {
+    background: cadetblue;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.theme-button {
+    font-size: 10px;
+    background: black;
+    color: white;
+    padding: 5 8px;
+}
+
+.theme-button:hover {
+    color: black;
+    background: white;
+}
+
+.learn-button {
+    margin: 25px auto;
+}
+
+.bike-into-picture:hover {
+    transform: scale(1.2);
+}
+
+.bike-golden-hour-picture:hover {
+    transform: scale(1.1);
+}
+
+.bike-silouette-picture:hover {
+    transform: scale(1.1); 
+}
+
+.bike-double-picture:hover {
+    transform: scale(1.1);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.row {
+    display: grid;
+    grid-template-rows: 150px;
+    grid-gap: 10px;
+}
+
+.dark {
+    background: black;
+    color: white;
+}
+
+.dark .container {
+background: rgba(255, 255, 255, .1);
+}
